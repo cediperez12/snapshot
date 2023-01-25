@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.container .input-search {
+    width: 20vw;
+    height: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5em;
+}
+
+.container .search-preset {
+    display: flex;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .search-preset button {
+    margin-left: 1em;
+}
+
+.container h2 {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.container-images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container-images img {
+    height: 20em;
+    margin: 1em;
+}
